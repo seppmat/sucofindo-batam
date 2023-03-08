@@ -4,6 +4,10 @@ body {
 	height: 100%;
 	font-family: "Nunito Sans", sans-serif;
 	-webkit-font-smoothing: antialiased;
+	top: 0;
+	padding: 0;
+	left: 0;
+	box-sizing: border-box;
 }
 
 ::-webkit-scrollbar{
@@ -1210,3 +1214,166 @@ section {
 	box-shadow: 2px 2px 3px #999;
   	z-index:100;
 }
+
+.page{
+	height: 30vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.main-content h3{
+	font-size: 3em;
+	color: #111111;
+	font-weight: 600;
+}
+
+.navigator{
+	padding: 30px;
+	margin-left: 100px;
+}
+
+.navigator .text a,
+.navigator .text h6{
+	color: #1A4980;
+	font-weight: 600;
+}
+
+.navigator .text a:hover{
+	color: #027BCC;
+	transition: 0.5s;
+}
+
+.navigator .text i{
+	font-size: 12px;
+	font-weight: bolder;
+	color: #000;
+	padding: 10px;
+}
+
+.image{
+	height: 200vh;
+	width: 100%;
+	background: linear-gradient(180deg, #1A4980, #1b5f8d, #1b5f8d, #1b5f8d, #1A4980);
+	padding-top: 100px;
+}
+
+.image .title h2,
+.image .title p{
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #fff;
+}
+
+.image .title p{
+	font-size: 1.3em;
+}
+
+.image .title hr{
+	float: left;
+	width: 200px;
+	height: 10px;
+	background: linear-gradient(to right, #1A4980, #f5f6f7);
+	border: none;
+}
+
+.content{
+	display: flex;
+	margin-top: 100px;
+	gap: 100px;
+}
+
+.content .main-content img{
+	width: 1500px;
+}
+
+.content .side-content{
+}
+
+.content .side-content img{
+	width: 800px;
+	padding-bottom: 20px;
+}
+
+.content .side-content p{
+	font-size: 1.4em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-weight: 550;
+	color: #fff;
+}
+
+.galeri-etc{
+	margin-top: 50px;
+}
+
+.galeri-etc .title{
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.galeri-etc .title h2{
+	font-size: 1.3em;
+	letter-spacing: 2px;
+}
+
+.image-event{
+	display: flex;
+	gap: 20px;
+}
+
+.image-event img{
+	width: 550px;
+	height: 350px;
+}
+
+.content-kontak{
+	padding: 100px;
+	background: #f5f6f7;
+}
+
+.etc-content .text-content{
+	text-decoration: none;
+	height: 100vh;
+}
+
+.etc-content .text-content a:hover{
+	color: #027BCC;
+}
+
+.etc-content .text-content h2{
+	letter-spacing: 2px;
+	font-weight: 700;
+	color: #000;
+}
+
+.etc-content .text-content h2 a{
+	margin-top: 500px;
+	color: #fff;
+	padding: 25px 150px;
+	border-radius: 5px;
+	font-size: 17px;
+	background: linear-gradient(to right, #04CAC2, #1A4980);
+	transition: 0.5s;
+}
+
+.etc-content .text-content h2 a:hover{
+	background: linear-gradient(to left, #04CAC2, #1A4980);
+	transition: 0.5s;
+	color: #fff;
+}
+
+.etc-content .text-content p{
+	font-size: 1.4em;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.etc-content .text-content p a{
+	color: #1A4980;
+	font-weight: lighter;
+}
+
+
